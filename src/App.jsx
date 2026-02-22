@@ -442,6 +442,270 @@ const dishes = [
     recipe: "https://cookieandkate.com/huevos-rancheros-recipe/",
     youtube: "https://www.youtube.com/results?search_query=huevos+rancheros+recipe+easy"
   },
+// ══════════════════════════════════════════════
+  // NEW DISHES — BATCH 2
+  // ══════════════════════════════════════════════
+  {
+    id: 43, name: "Skyr Bowl (hemp seeds + walnuts)", cuisine: "Icelandic", type: "veg",
+    prep: "3 min", cook: "0 min", protein: 33, cal: 380,
+    nutrients: "Complete protein, Omega-3, DHA, Calcium, B12, Probiotics",
+    benefits: ["Muscle", "Brain", "Skin", "Gut"],
+    tier: "ultra",
+    why: "Skyr has almost double the protein of Greek yogurt. Hemp seeds add complete protein + Omega-3. Walnuts add DHA for brain.",
+    recipe: "https://www.bbcgoodfood.com/recipes/skyr-bowl",
+    youtube: "https://www.youtube.com/results?search_query=skyr+bowl+high+protein+recipe"
+  },
+  {
+    id: 44, name: "Tempeh Stir Fry (soy + ginger + sesame)", cuisine: "Asian", type: "veg",
+    prep: "5 min", cook: "10 min", protein: 34, cal: 360,
+    nutrients: "Complete protein, Probiotics, Iron, Calcium, Isoflavones, Sesamol",
+    benefits: ["Muscle", "Gut", "Debloat", "Skin"],
+    tier: "ultra",
+    why: "Tempeh is fermented soya — higher protein than tofu AND probiotic. Fermentation makes it easier to digest than raw soy.",
+    recipe: "https://minimalistbaker.com/simple-tempeh-stir-fry/",
+    youtube: "https://www.youtube.com/results?search_query=tempeh+stir+fry+recipe+high+protein"
+  },
+  {
+    id: 45, name: "Saag Tofu (Indian)", cuisine: "Indian", type: "veg",
+    prep: "5 min", cook: "15 min", protein: 32, cal: 320,
+    nutrients: "Complete protein, Vitamin K, Iron, Folate, Calcium, Isoflavones",
+    benefits: ["Muscle", "Skin", "Brain", "Debloat"],
+    tier: "ultra",
+    why: "Palak paneer but with tofu — higher protein, lower fat. Spinach iron + vitamin K + tofu complete protein. Indian palate instant comfort.",
+    recipe: "https://www.vegrecipesofindia.com/palak-tofu/",
+    youtube: "https://www.youtube.com/results?search_query=saag+tofu+palak+tofu+recipe"
+  },
+  {
+    id: 46, name: "Tempeh Taco Bowl (Mexican)", cuisine: "Mexican", type: "veg",
+    prep: "5 min", cook: "10 min", protein: 36, cal: 420,
+    nutrients: "Complete protein, Anthocyanins, Fiber, Omega-3, Healthy fats, Vitamin C",
+    benefits: ["Muscle", "Gut", "Skin", "Brain"],
+    tier: "ultra",
+    why: "Crumbled tempeh + black beans = double protein hit. Avocado adds oleic acid for skin. Salsa adds vitamin C for iron absorption.",
+    recipe: "https://minimalistbaker.com/tempeh-taco-meat/",
+    youtube: "https://www.youtube.com/results?search_query=tempeh+taco+bowl+recipe+vegan"
+  },
+  {
+    id: 47, name: "High Protein Smoothie (skyr + hemp + PB + banana)", cuisine: "Western", type: "veg",
+    prep: "3 min", cook: "0 min", protein: 38, cal: 440,
+    nutrients: "Complete protein, Omega-3, Magnesium, Potassium, B6, Vitamin E",
+    benefits: ["Muscle", "Brain"],
+    tier: "ultra",
+    why: "Skyr + hemp seeds + peanut butter + banana = complete amino acid profile from multiple sources. Best pre or post workout drink.",
+    recipe: "https://www.bbcgoodfood.com/recipes/protein-smoothie",
+    youtube: "https://www.youtube.com/results?search_query=high+protein+smoothie+skyr+hemp+peanut+butter"
+  },
+  {
+    id: 48, name: "Moong Dal Chilla with Paneer Stuffing (Indian)", cuisine: "Indian", type: "veg",
+    prep: "5 min", cook: "10 min", protein: 34, cal: 380,
+    nutrients: "Complete protein x2, Calcium, B12, Phosphorus, Iron, Fiber",
+    benefits: ["Muscle", "Gut", "Skin"],
+    tier: "ultra",
+    why: "Moong dal batter + paneer filling = two complete proteins. Most familiar high protein option for Indian palate. Zero adjustment needed.",
+    recipe: "https://www.vegrecipesofindia.com/moong-dal-chilla/",
+    youtube: "https://www.youtube.com/results?search_query=moong+dal+chilla+paneer+stuffing+recipe"
+  },
+  {
+    id: 49, name: "Quinoa Power Bowl (quinoa + edamame + tofu + tahini)", cuisine: "Fusion", type: "veg",
+    prep: "5 min", cook: "15 min", protein: 35, cal: 460,
+    nutrients: "Complete protein x3, Calcium, Iron, Omega-3, Zinc, B vitamins",
+    benefits: ["Muscle", "Brain", "Skin"],
+    tier: "ultra",
+    why: "Quinoa is the only grain with complete protein. Stacked with edamame and tofu = three complete plant proteins in one bowl.",
+    recipe: "https://cookieandkate.com/quinoa-power-bowls/",
+    youtube: "https://www.youtube.com/results?search_query=quinoa+power+bowl+tofu+edamame+tahini"
+  },
+  {
+    id: 50, name: "3-Egg Shakshuka with Feta", cuisine: "Middle Eastern", type: "egg",
+    prep: "5 min", cook: "15 min", protein: 31, cal: 380,
+    nutrients: "Complete protein, Lycopene, Vitamin C, Choline, Calcium, B12, Iron",
+    benefits: ["Muscle", "Skin", "Brain"],
+    tier: "ultra",
+    why: "3 eggs instead of 2 + feta crumbled on top = 31g protein. Lycopene + choline + vitamin C all in one pan. Never bland.",
+    recipe: "https://cookieandkate.com/shakshuka-recipe/",
+    youtube: "https://www.youtube.com/results?search_query=shakshuka+3+eggs+feta+recipe"
+  },
+  {
+    id: 51, name: "Tempeh Miso Soup (Japanese)", cuisine: "Japanese", type: "veg",
+    prep: "5 min", cook: "10 min", protein: 30, cal: 280,
+    nutrients: "Complete protein, Probiotics x2, Iodine, B12, Isoflavones, Zinc",
+    benefits: ["Muscle", "Gut", "Debloat"],
+    tier: "ultra",
+    why: "Miso + tempeh = probiotics from two sources simultaneously. Lowest calorie 30g+ protein dish on this list.",
+    recipe: "https://www.justonecookbook.com/miso-soup/",
+    youtube: "https://www.youtube.com/results?search_query=tempeh+miso+soup+recipe+high+protein"
+  },
+  {
+    id: 52, name: "Korean Sundubu Jjigae (Soft Tofu Stew)", cuisine: "Korean", type: "veg",
+    prep: "3 min", cook: "10 min", protein: 18, cal: 220,
+    nutrients: "Silken tofu protein, Mushroom beta-glucans, Capsaicin, Selenium, Iron",
+    benefits: ["Debloat", "Gut", "Brain"],
+    tier: "high",
+    why: "Softest most digestible tofu preparation. Gochugaru reduces inflammation. Mushroom beta-glucans boost immunity. Deeply savoury broth.",
+    recipe: "https://www.koreanbapsang.com/sundubu-jjigae-soft-tofu-stew/",
+    youtube: "https://www.youtube.com/results?search_query=sundubu+jjigae+soft+tofu+stew+vegetarian"
+  },
+  {
+    id: 53, name: "Japanese Hiyayakko (Cold Tofu)", cuisine: "Japanese", type: "veg",
+    prep: "3 min", cook: "0 min", protein: 20, cal: 180,
+    nutrients: "Complete protein, Isoflavones, Calcium, Ginger, Sesamol, Iodine",
+    benefits: ["Debloat", "Muscle", "Skin"],
+    tier: "high",
+    why: "Zero cooking. Lightest high protein dish on this list. Cold silken tofu + soy + ginger + sesame. Best summer debloating meal.",
+    recipe: "https://www.justonecookbook.com/hiyayakko-cold-tofu/",
+    youtube: "https://www.youtube.com/results?search_query=hiyayakko+cold+tofu+recipe+japanese"
+  },
+  {
+    id: 54, name: "Peanut Noodles with Edamame (Asian)", cuisine: "Asian", type: "veg",
+    prep: "5 min", cook: "10 min", protein: 26, cal: 440,
+    nutrients: "Complete protein, Omega-3, Vitamin E, B vitamins, Manganese, Zinc",
+    benefits: ["Brain", "Muscle", "Skin"],
+    tier: "high",
+    why: "Peanut butter + edamame = complete protein combo. Rich nutty tangy sauce — never bland. Omega-3 from edamame for brain.",
+    recipe: "https://minimalistbaker.com/easy-peanut-noodles/",
+    youtube: "https://www.youtube.com/results?search_query=peanut+noodles+edamame+recipe+easy"
+  },
+  {
+    id: 55, name: "Labneh Flatbread + Za'atar + Hemp Seeds", cuisine: "Middle Eastern", type: "veg",
+    prep: "3 min", cook: "5 min", protein: 22, cal: 340,
+    nutrients: "Probiotics, Calcium, Omega-3, Zinc, Thyme antioxidants, Olive oil polyphenols",
+    benefits: ["Gut", "Skin", "Brain"],
+    tier: "high",
+    why: "Hemp seeds turn a snack into a muscle building meal. Za'atar is one of the most antioxidant-rich spice blends. Probiotic labneh debloats.",
+    recipe: "https://www.themediterraneandish.com/labneh/",
+    youtube: "https://www.youtube.com/results?search_query=labneh+flatbread+zaatar+recipe"
+  },
+  {
+    id: 56, name: "Miso Glazed Tofu (pan fried)", cuisine: "Japanese", type: "veg",
+    prep: "3 min", cook: "8 min", protein: 22, cal: 260,
+    nutrients: "Complete protein, Probiotics, Sesamol, Isoflavones, Zinc, B vitamins",
+    benefits: ["Gut", "Muscle", "Skin", "Debloat"],
+    tier: "high",
+    why: "Crispy outside soft inside. Miso glaze = umami bomb + probiotics. One of the most flavourful tofu preparations. Never bland.",
+    recipe: "https://minimalistbaker.com/miso-glazed-tofu/",
+    youtube: "https://www.youtube.com/results?search_query=miso+glazed+tofu+recipe+crispy"
+  },
+  {
+    id: 57, name: "Turkish Cilbir (Poached Egg + Garlic Yogurt)", cuisine: "Turkish", type: "egg",
+    prep: "3 min", cook: "7 min", protein: 24, cal: 280,
+    nutrients: "Complete protein, Probiotics, Choline, B12, Allicin, Capsaicin, Calcium",
+    benefits: ["Muscle", "Gut", "Brain", "Skin"],
+    tier: "high",
+    why: "Ancient Ottoman dish — poached eggs on garlic yogurt + chilli butter. Incredible layered flavours. Protein from egg AND yogurt simultaneously.",
+    recipe: "https://www.thespruceeats.com/cilbir-turkish-eggs-recipe-4783069",
+    youtube: "https://www.youtube.com/results?search_query=cilbir+turkish+eggs+yogurt+recipe"
+  },
+  {
+    id: 58, name: "Beetroot Hummus + Whole Grain Pita", cuisine: "Middle Eastern", type: "veg",
+    prep: "5 min", cook: "0 min", protein: 14, cal: 300,
+    nutrients: "Nitrates, Betalains, Iron, Calcium (tahini), Folate, Fiber, Vitamin C",
+    benefits: ["Skin", "Brain", "Debloat"],
+    tier: "high",
+    why: "Chickpea protein + beetroot nitrates + tahini calcium. Nitric oxide from beetroot gives skin glow. Visually stunning deep pink colour.",
+    recipe: "https://cookieandkate.com/beet-hummus-recipe/",
+    youtube: "https://www.youtube.com/results?search_query=beetroot+hummus+recipe+easy"
+  },
+  {
+    id: 59, name: "Green Shakshuka (spinach + herbs + eggs)", cuisine: "Middle Eastern", type: "egg",
+    prep: "5 min", cook: "12 min", protein: 20, cal: 260,
+    nutrients: "Complete protein, Vitamin K, Folate, Iron, Choline, B12, Magnesium",
+    benefits: ["Skin", "Brain", "Muscle"],
+    tier: "high",
+    why: "Eggs poached in spinach + herb green sauce. Higher vitamin K and folate than red shakshuka. Bright herby flavour — refreshing not heavy.",
+    recipe: "https://www.loveandlemons.com/green-shakshuka/",
+    youtube: "https://www.youtube.com/results?search_query=green+shakshuka+recipe+spinach"
+  },
+  {
+    id: 60, name: "Egg + Avocado Smash Bowl", cuisine: "Western", type: "egg",
+    prep: "3 min", cook: "6 min", protein: 18, cal: 340,
+    nutrients: "Complete protein, Oleic acid, Vitamin E, Choline, Folate, Potassium, B12",
+    benefits: ["Skin", "Brain", "Debloat"],
+    tier: "high",
+    why: "Choline + oleic acid + vitamin E in one bowl. 9 minutes total. Avocado fat helps absorb all fat-soluble vitamins from the egg.",
+    recipe: "https://www.bbcgoodfood.com/recipes/avocado-eggs",
+    youtube: "https://www.youtube.com/results?search_query=egg+avocado+smash+bowl+recipe"
+  },
+  {
+    id: 61, name: "Tempeh Bolognese (Italian)", cuisine: "Italian", type: "veg",
+    prep: "10 min", cook: "20 min", protein: 28, cal: 420,
+    nutrients: "Complete protein, Probiotics, Lycopene, Iron, B vitamins, Rosemary antioxidants",
+    benefits: ["Muscle", "Gut", "Skin"],
+    tier: "high",
+    why: "Crumbled tempeh as bolognese meat — tastes incredibly rich and meaty. Make huge batch, refrigerates 5 days, freezes 3 months.",
+    recipe: "https://minimalistbaker.com/tempeh-bolognese/",
+    youtube: "https://www.youtube.com/results?search_query=tempeh+bolognese+recipe+vegan"
+  },
+  {
+    id: 62, name: "Quinoa + Black Bean Salad (Mexican)", cuisine: "Mexican", type: "veg",
+    prep: "10 min", cook: "15 min", protein: 22, cal: 380,
+    nutrients: "Complete protein, Anthocyanins, Fiber, Lime (vitamin C), Cumin, Folate",
+    benefits: ["Muscle", "Brain", "Debloat", "Skin"],
+    tier: "high",
+    why: "Quinoa + black beans = complete amino acids. Lime + cumin + coriander = punchy fresh flavour. Refrigerates 4 days perfectly.",
+    recipe: "https://cookieandkate.com/black-bean-quinoa-salad-recipe/",
+    youtube: "https://www.youtube.com/results?search_query=quinoa+black+bean+salad+mexican+recipe"
+  },
+  {
+    id: 63, name: "Chana Masala (Indian)", cuisine: "Indian", type: "veg",
+    prep: "5 min", cook: "20 min", protein: 19, cal: 320,
+    nutrients: "Fiber, Iron, Folate, B6, Zinc, Potassium, Vitamin C",
+    benefits: ["Gut", "Debloat", "Muscle", "Brain"],
+    tier: "high",
+    why: "Your most familiar meal prep. Gets better every day as spices develop. Freezes 3 months. Zero adjustment needed for Indian palate.",
+    recipe: "https://www.vegrecipesofindia.com/chana-masala-recipe/",
+    youtube: "https://www.youtube.com/results?search_query=chana+masala+recipe+easy+authentic"
+  },
+  {
+    id: 64, name: "Baked Tempeh + Roasted Vegetables", cuisine: "Fusion", type: "veg",
+    prep: "10 min", cook: "25 min", protein: 32, cal: 380,
+    nutrients: "Complete protein, Probiotics, Beta-carotene, Vitamin C, Iron, Fiber",
+    benefits: ["Muscle", "Skin", "Gut"],
+    tier: "ultra",
+    why: "Marinate in soy + ginger + garlic, bake alongside seasonal veg. Make full tray, refrigerates 5 days. Mix with rice or wraps all week.",
+    recipe: "https://minimalistbaker.com/baked-tempeh/",
+    youtube: "https://www.youtube.com/results?search_query=baked+tempeh+roasted+vegetables+meal+prep"
+  },
+  {
+    id: 65, name: "Spinach Dal (Indian)", cuisine: "Indian", type: "veg",
+    prep: "5 min", cook: "20 min", protein: 18, cal: 260,
+    nutrients: "Iron, Vitamin K, Folate, Fiber, B6, Potassium, Protein",
+    benefits: ["Skin", "Brain", "Debloat", "Muscle"],
+    tier: "high",
+    why: "Moong or masoor dal + spinach = most nutritious Indian meal prep. Iron + folate + protein + vitamin K in one pot. Makes 5 portions easily.",
+    recipe: "https://www.vegrecipesofindia.com/palak-dal-recipe/",
+    youtube: "https://www.youtube.com/results?search_query=spinach+dal+palak+dal+recipe"
+  },
+  {
+    id: 66, name: "Moroccan Spiced Lentil + Sweet Potato", cuisine: "Moroccan", type: "veg",
+    prep: "10 min", cook: "25 min", protein: 16, cal: 360,
+    nutrients: "Beta-carotene, Vitamin A, Iron, Fiber, Folate, Cinnamon (blood sugar), B6",
+    benefits: ["Skin", "Gut", "Brain", "Debloat"],
+    tier: "high",
+    why: "Sweet potato beta-carotene converts to vitamin A — critical for skin cell renewal. Warm spices — cumin, coriander, cinnamon = complex flavour.",
+    recipe: "https://www.bbcgoodfood.com/recipes/moroccan-lentil-sweet-potato-soup",
+    youtube: "https://www.youtube.com/results?search_query=moroccan+lentil+sweet+potato+recipe"
+  },
+  {
+    id: 67, name: "Greek Baked Eggs in Tomato + Feta", cuisine: "Greek", type: "egg",
+    prep: "5 min", cook: "20 min", protein: 24, cal: 320,
+    nutrients: "Complete protein, Lycopene, Choline, Calcium, B12, Vitamin C, Selenium",
+    benefits: ["Skin", "Muscle", "Brain"],
+    tier: "high",
+    why: "Bake in cast iron, slice like a cake, refrigerate. Reheat in 90 seconds all week. Lycopene + choline + calcium in every slice.",
+    recipe: "https://www.themediterraneandish.com/baked-eggs/",
+    youtube: "https://www.youtube.com/results?search_query=greek+baked+eggs+tomato+feta+recipe"
+  },
+  {
+    id: 68, name: "Saag Paneer Wrap (quick version)", cuisine: "Indian", type: "veg",
+    prep: "5 min", cook: "10 min", protein: 24, cal: 380,
+    nutrients: "Complete protein, Vitamin K, Iron, Calcium, Folate, Fiber",
+    benefits: ["Muscle", "Skin", "Brain"],
+    tier: "high",
+    why: "Leftover saag + paneer in whole wheat wrap. Your Indian palate, zero adjustment. Iron + protein + vitamin K in one portable meal.",
+    recipe: "https://www.vegrecipesofindia.com/palak-paneer-recipe/",
+    youtube: "https://www.youtube.com/results?search_query=saag+paneer+wrap+recipe+quick"
+  },
+
 ];
 
 const benefitColors = {
@@ -468,7 +732,9 @@ export default function NutritionGuide() {
   const [typeFilter, setTypeFilter] = useState("all");
   const [benefitFilter, setBenefitFilter] = useState("all");
   const [search, setSearch] = useState("");
-  const [expanded, setExpanded] = useState(null);
+const [expanded, setExpanded] = useState(null);
+const [cuisineFilter, setCuisineFilter] = useState("all");
+const cuisines = ["all", "Indian", "Japanese", "Korean", "Thai", "Turkish", "Middle Eastern", "Moroccan", "Ethiopian", "Italian", "Mexican", "Western", "Asian", "Icelandic", "Fusion", "Vietnamese", "Greek", "Spanish"];
   const [activeSection, setActiveSection] = useState("dishes");
 
   const filtered = useMemo(() => {
@@ -476,12 +742,12 @@ export default function NutritionGuide() {
       if (filter !== "all" && d.tier !== filter) return false;
       if (typeFilter !== "all" && d.type !== typeFilter) return false;
       if (benefitFilter !== "all" && !d.benefits.includes(benefitFilter)) return false;
+      if (cuisineFilter !== "all" && d.cuisine !== cuisineFilter) return false; // ADD THIS LINE
       if (search && !d.name.toLowerCase().includes(search.toLowerCase()) &&
           !d.cuisine.toLowerCase().includes(search.toLowerCase())) return false;
       return true;
     });
-  }, [filter, typeFilter, benefitFilter, search]);
-
+  }, [filter, typeFilter, benefitFilter, cuisineFilter, search]); // ADD cuisineFilter here too
   const grouped = useMemo(() => {
     const g = {};
     ["ultra", "high", "medium"].forEach(t => {
@@ -613,7 +879,21 @@ export default function NutritionGuide() {
                 {filtered.length} of {dishes.length} dishes
               </div>
             </div>
-
+{/* Cuisine filter */}
+<div style={{ marginTop: 10 }}>
+  <div style={{ fontSize: 10, color: "#444", fontFamily: "monospace", letterSpacing: 1, marginBottom: 6 }}>CUISINE</div>
+  <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+    {cuisines.map(v => (
+      <button key={v} onClick={() => setCuisineFilter(v)} style={{
+        padding: "5px 10px", borderRadius: 999, border: "1px solid",
+        borderColor: cuisineFilter === v ? "#f59e0b" : "#2a2a2a",
+        background: cuisineFilter === v ? "rgba(245,158,11,0.2)" : "transparent",
+        color: cuisineFilter === v ? "#f59e0b" : "#666",
+        cursor: "pointer", fontSize: 11, fontFamily: "monospace"
+      }}>{v === "all" ? "🌍 All Cuisines" : v}</button>
+    ))}
+  </div>
+</div>
             {/* DISH GROUPS */}
             {Object.entries(grouped).map(([tier, items]) => (
               <div key={tier} style={{ marginBottom: 36 }}>
