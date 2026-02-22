@@ -871,7 +871,7 @@ const cuisines = ["all", "Indian", "Japanese", "Korean", "Thai", "Turkish", "Mid
                       color: benefitFilter === v ? (benefitColors[v] || "#8b5cf6") : "#666",
                       cursor: "pointer", fontSize: 11, fontFamily: "monospace"
                     }}>{v === "all" ? "All" : v}</button>
-                  ))}
+                  ))} 
                 </div>
               </div>
 
